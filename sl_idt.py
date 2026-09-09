@@ -35,6 +35,7 @@ if __name__ == "__main__":
     parser.add_argument('--lr', type=float, default=1e-3)
     parser.add_argument('--batch_size', type=int, default=128)
     parser.add_argument('--seed', type=int, default=0)
+    parser.add_argument('--mm', type=int, default=0)
     parser.add_argument('--out_dir', type=str, default='./sl_logs')
     args = parser.parse_args()
 
@@ -55,11 +56,11 @@ if __name__ == "__main__":
     exp_idx = []
     for iii in range(len(group_indices) - 1):
         exp_idx += range(group_indices[iii], group_indices[iii + 1])
-    print(len(exp_idx), exp_idx)
+
     for jj in exp_idx:
         dsi = ds['exp{}'.format(jj)]
         red_rxn_idx |= set(np.where(dsi >= 0.01)[0])
-    print(len(red_rxn_idx))
+
     red_rxn_idx = sorted(red_rxn_idx)  # 固定顺序
     red_rxn_idx = np.array(red_rxn_idx)  # 方便花式索引
 
@@ -67,7 +68,7 @@ if __name__ == "__main__":
     red_A_dim = len(red_labels)
 
     for N_mc in [100000]:
-        out_dir = args.out_dir + './N_mc{}'.format(N_mc)
+        out_dir = args.out_dir + '/N_mc{}'.format(N_mc)
         os.makedirs(out_dir, exist_ok=True)
 
         # j = args.cond
@@ -77,7 +78,7 @@ if __name__ == "__main__":
             X_sample = qmc.scale(qmc.LatinHypercube(d=red_A_dim).random(n=N_mc), -1, 1)
             np.save(out_dir + '/mc_X.npy', X_sample)
 
-        for j in exp_idx:
+        for j in exp_idx[args.mm*4:args.mm*4+4]:
             base_cond = {'mech_path': args.mech_path,
                          'A_tab':     A_tab,
                          'param_UF':  np.full(A_dim, args.UF),
