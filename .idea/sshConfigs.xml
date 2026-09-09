@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="vanda.nus.edu.sg" id="018d4832-8f07-4f7e-ba37-ee88c0e4f4d7" port="22" nameFormat="DESCRIPTIVE" username="e1301619" useOpenSSHConfig="true" />
+      <sshConfig authType="PASSWORD" host="vanda.nus.edu.sg" id="77092d28-1120-47d1-bd2c-5c79fee48e61" port="22" nameFormat="DESCRIPTIVE" username="peng_ma" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</project>

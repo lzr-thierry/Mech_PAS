@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="6dab6ad3-6004-4732-ab38-c57014421686" name="vanda.nus.edu.sg">
+        <fileTransfer rootFolder="/nfs/home/svu/e1301619" accessType="SFTP" host="vanda.nus.edu.sg" port="22" sshConfigId="018d4832-8f07-4f7e-ba37-ee88c0e4f4d7" sshConfig="e1301619@vanda.nus.edu.sg:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
