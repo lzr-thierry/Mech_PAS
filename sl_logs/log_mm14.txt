@@ -1,0 +1,321 @@
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 36 concurrent workers.
+[Parallel(n_jobs=-1)]: Done  90 tasks      | elapsed:    2.9s
+[Parallel(n_jobs=-1)]: Done 216 tasks      | elapsed:    3.2s
+[Parallel(n_jobs=-1)]: Done 540 tasks      | elapsed:    3.9s
+[Parallel(n_jobs=-1)]: Done 936 tasks      | elapsed:    4.7s
+[Parallel(n_jobs=-1)]: Done 1404 tasks      | elapsed:    5.8s
+[Parallel(n_jobs=-1)]: Done 1944 tasks      | elapsed:    6.9s
+[Parallel(n_jobs=-1)]: Done 2556 tasks      | elapsed:    8.2s
+[Parallel(n_jobs=-1)]: Done 3240 tasks      | elapsed:    9.7s
+[Parallel(n_jobs=-1)]: Done 3996 tasks      | elapsed:   11.3s
+[Parallel(n_jobs=-1)]: Done 4824 tasks      | elapsed:   13.1s
+[Parallel(n_jobs=-1)]: Done 5724 tasks      | elapsed:   15.0s
+[Parallel(n_jobs=-1)]: Done 6696 tasks      | elapsed:   17.1s
+[Parallel(n_jobs=-1)]: Done 7740 tasks      | elapsed:   19.3s
+[Parallel(n_jobs=-1)]: Done 8856 tasks      | elapsed:   21.8s
+[Parallel(n_jobs=-1)]: Done 10044 tasks      | elapsed:   24.3s
+[Parallel(n_jobs=-1)]: Done 11304 tasks      | elapsed:   27.0s
+[Parallel(n_jobs=-1)]: Done 12636 tasks      | elapsed:   29.8s
+[Parallel(n_jobs=-1)]: Done 14040 tasks      | elapsed:   32.9s
+[Parallel(n_jobs=-1)]: Done 15516 tasks      | elapsed:   36.0s
+[Parallel(n_jobs=-1)]: Done 17064 tasks      | elapsed:   39.3s
+[Parallel(n_jobs=-1)]: Done 18684 tasks      | elapsed:   42.8s
+[Parallel(n_jobs=-1)]: Done 20376 tasks      | elapsed:   46.5s
+[Parallel(n_jobs=-1)]: Done 22140 tasks      | elapsed:   50.2s
+[Parallel(n_jobs=-1)]: Done 23976 tasks      | elapsed:   54.2s
+[Parallel(n_jobs=-1)]: Done 25884 tasks      | elapsed:   58.3s
+[Parallel(n_jobs=-1)]: Done 27864 tasks      | elapsed:  1.0min
+[Parallel(n_jobs=-1)]: Done 29916 tasks      | elapsed:  1.1min
+[Parallel(n_jobs=-1)]: Done 32040 tasks      | elapsed:  1.2min
+[Parallel(n_jobs=-1)]: Done 34236 tasks      | elapsed:  1.3min
+[Parallel(n_jobs=-1)]: Done 36504 tasks      | elapsed:  1.4min
+[Parallel(n_jobs=-1)]: Done 38844 tasks      | elapsed:  1.4min
+[Parallel(n_jobs=-1)]: Done 41256 tasks      | elapsed:  1.5min
+[Parallel(n_jobs=-1)]: Done 43740 tasks      | elapsed:  1.6min
+[Parallel(n_jobs=-1)]: Done 46296 tasks      | elapsed:  1.7min
+[Parallel(n_jobs=-1)]: Done 48924 tasks      | elapsed:  1.8min
+[Parallel(n_jobs=-1)]: Done 51624 tasks      | elapsed:  1.9min
+[Parallel(n_jobs=-1)]: Done 54396 tasks      | elapsed:  2.0min
+[Parallel(n_jobs=-1)]: Done 57240 tasks      | elapsed:  2.1min
+[Parallel(n_jobs=-1)]: Done 60156 tasks      | elapsed:  2.2min
+[Parallel(n_jobs=-1)]: Done 63144 tasks      | elapsed:  2.3min
+[Parallel(n_jobs=-1)]: Done 66204 tasks      | elapsed:  2.4min
+[Parallel(n_jobs=-1)]: Done 69336 tasks      | elapsed:  2.5min
+[Parallel(n_jobs=-1)]: Done 72540 tasks      | elapsed:  2.6min
+[Parallel(n_jobs=-1)]: Done 75816 tasks      | elapsed:  2.8min
+[Parallel(n_jobs=-1)]: Done 79164 tasks      | elapsed:  2.9min
+[Parallel(n_jobs=-1)]: Done 82584 tasks      | elapsed:  3.0min
+[Parallel(n_jobs=-1)]: Done 86076 tasks      | elapsed:  3.1min
+[Parallel(n_jobs=-1)]: Done 89640 tasks      | elapsed:  3.2min
+[Parallel(n_jobs=-1)]: Done 93276 tasks      | elapsed:  3.4min
+[Parallel(n_jobs=-1)]: Done 96984 tasks      | elapsed:  3.5min
+[Parallel(n_jobs=-1)]: Done 99929 out of 100000 | elapsed:  3.6min remaining:    0.2s
+[Parallel(n_jobs=-1)]: Done 100000 out of 100000 | elapsed:  3.6min finished
+wrote ./sl_logs/N_mc100000/mc_cond56
+epoch   20  train_mse=8.7592e-04  val_mse=9.3506e-04
+epoch   40  train_mse=4.4067e-04  val_mse=4.5725e-04
+epoch   60  train_mse=3.3159e-04  val_mse=3.7921e-04
+epoch   80  train_mse=2.7843e-04  val_mse=3.2482e-04
+epoch  100  train_mse=2.6246e-04  val_mse=3.0913e-04
+epoch  120  train_mse=2.2938e-04  val_mse=2.4874e-04
+epoch  140  train_mse=2.2307e-04  val_mse=2.1341e-04
+epoch  160  train_mse=2.1058e-04  val_mse=2.1992e-04
+epoch  180  train_mse=2.0350e-04  val_mse=2.1775e-04
+epoch  200  train_mse=1.9083e-04  val_mse=2.4069e-04
+epoch  220  train_mse=1.8764e-04  val_mse=2.0189e-04
+epoch  240  train_mse=1.7694e-04  val_mse=2.0344e-04
+epoch  260  train_mse=1.7895e-04  val_mse=1.9151e-04
+epoch  280  train_mse=1.7152e-04  val_mse=1.9689e-04
+epoch  300  train_mse=1.7324e-04  val_mse=1.7546e-04
+epoch  320  train_mse=1.6747e-04  val_mse=1.7889e-04
+epoch  340  train_mse=1.5895e-04  val_mse=2.1401e-04
+epoch  360  train_mse=1.5593e-04  val_mse=1.6613e-04
+epoch  380  train_mse=1.5771e-04  val_mse=1.5316e-04
+epoch  400  train_mse=1.4986e-04  val_mse=1.6918e-04
+epoch  420  train_mse=1.5683e-04  val_mse=1.5424e-04
+epoch  440  train_mse=1.5561e-04  val_mse=1.5230e-04
+epoch  460  train_mse=1.4585e-04  val_mse=1.8486e-04
+epoch  480  train_mse=1.4775e-04  val_mse=1.4687e-04
+epoch  500  train_mse=1.3341e-04  val_mse=1.8956e-04
+
+test R²   = 0.9999
+test RE = 7.1843e-03
+wrote ./sl_logs/N_mc100000/train_history_cond56.csv
+wrote ./sl_logs/N_mc100000/sg_cond56.pt  (test R²=0.9999, MRE=7.1843e-03)
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 36 concurrent workers.
+[Parallel(n_jobs=-1)]: Done  90 tasks      | elapsed:    3.3s
+[Parallel(n_jobs=-1)]: Done 216 tasks      | elapsed:    3.6s
+[Parallel(n_jobs=-1)]: Done 540 tasks      | elapsed:    4.3s
+[Parallel(n_jobs=-1)]: Done 936 tasks      | elapsed:    5.1s
+[Parallel(n_jobs=-1)]: Done 1404 tasks      | elapsed:    6.2s
+[Parallel(n_jobs=-1)]: Done 1944 tasks      | elapsed:    7.3s
+[Parallel(n_jobs=-1)]: Done 2556 tasks      | elapsed:    8.6s
+[Parallel(n_jobs=-1)]: Done 3240 tasks      | elapsed:   10.1s
+[Parallel(n_jobs=-1)]: Done 3996 tasks      | elapsed:   11.6s
+[Parallel(n_jobs=-1)]: Done 4824 tasks      | elapsed:   13.4s
+[Parallel(n_jobs=-1)]: Done 5724 tasks      | elapsed:   15.3s
+[Parallel(n_jobs=-1)]: Done 6696 tasks      | elapsed:   17.3s
+[Parallel(n_jobs=-1)]: Done 7740 tasks      | elapsed:   19.5s
+[Parallel(n_jobs=-1)]: Done 8856 tasks      | elapsed:   21.9s
+[Parallel(n_jobs=-1)]: Done 10044 tasks      | elapsed:   24.4s
+[Parallel(n_jobs=-1)]: Done 11304 tasks      | elapsed:   27.0s
+[Parallel(n_jobs=-1)]: Done 12636 tasks      | elapsed:   29.9s
+[Parallel(n_jobs=-1)]: Done 14040 tasks      | elapsed:   32.8s
+[Parallel(n_jobs=-1)]: Done 15516 tasks      | elapsed:   35.9s
+[Parallel(n_jobs=-1)]: Done 17064 tasks      | elapsed:   39.2s
+[Parallel(n_jobs=-1)]: Done 18684 tasks      | elapsed:   42.6s
+[Parallel(n_jobs=-1)]: Done 20376 tasks      | elapsed:   46.2s
+[Parallel(n_jobs=-1)]: Done 22140 tasks      | elapsed:   49.9s
+[Parallel(n_jobs=-1)]: Done 23976 tasks      | elapsed:   53.8s
+[Parallel(n_jobs=-1)]: Done 25884 tasks      | elapsed:   57.8s
+[Parallel(n_jobs=-1)]: Done 27864 tasks      | elapsed:  1.0min
+[Parallel(n_jobs=-1)]: Done 29916 tasks      | elapsed:  1.1min
+[Parallel(n_jobs=-1)]: Done 32040 tasks      | elapsed:  1.2min
+[Parallel(n_jobs=-1)]: Done 34236 tasks      | elapsed:  1.3min
+[Parallel(n_jobs=-1)]: Done 36504 tasks      | elapsed:  1.3min
+[Parallel(n_jobs=-1)]: Done 38844 tasks      | elapsed:  1.4min
+[Parallel(n_jobs=-1)]: Done 41256 tasks      | elapsed:  1.5min
+[Parallel(n_jobs=-1)]: Done 43740 tasks      | elapsed:  1.6min
+[Parallel(n_jobs=-1)]: Done 46296 tasks      | elapsed:  1.7min
+[Parallel(n_jobs=-1)]: Done 48924 tasks      | elapsed:  1.8min
+[Parallel(n_jobs=-1)]: Done 51624 tasks      | elapsed:  1.9min
+[Parallel(n_jobs=-1)]: Done 54396 tasks      | elapsed:  2.0min
+[Parallel(n_jobs=-1)]: Done 57240 tasks      | elapsed:  2.1min
+[Parallel(n_jobs=-1)]: Done 60156 tasks      | elapsed:  2.2min
+[Parallel(n_jobs=-1)]: Done 63144 tasks      | elapsed:  2.3min
+[Parallel(n_jobs=-1)]: Done 66204 tasks      | elapsed:  2.4min
+[Parallel(n_jobs=-1)]: Done 69336 tasks      | elapsed:  2.5min
+[Parallel(n_jobs=-1)]: Done 72540 tasks      | elapsed:  2.6min
+[Parallel(n_jobs=-1)]: Done 75816 tasks      | elapsed:  2.7min
+[Parallel(n_jobs=-1)]: Done 79164 tasks      | elapsed:  2.8min
+[Parallel(n_jobs=-1)]: Done 82584 tasks      | elapsed:  3.0min
+[Parallel(n_jobs=-1)]: Done 86076 tasks      | elapsed:  3.1min
+[Parallel(n_jobs=-1)]: Done 89640 tasks      | elapsed:  3.2min
+[Parallel(n_jobs=-1)]: Done 93276 tasks      | elapsed:  3.3min
+[Parallel(n_jobs=-1)]: Done 96984 tasks      | elapsed:  3.5min
+[Parallel(n_jobs=-1)]: Done 99929 out of 100000 | elapsed:  3.6min remaining:    0.2s
+[Parallel(n_jobs=-1)]: Done 100000 out of 100000 | elapsed:  3.6min finished
+wrote ./sl_logs/N_mc100000/mc_cond57
+epoch   20  train_mse=8.3724e-04  val_mse=9.7552e-04
+epoch   40  train_mse=4.5909e-04  val_mse=4.1105e-04
+epoch   60  train_mse=3.3990e-04  val_mse=5.2441e-04
+epoch   80  train_mse=2.7146e-04  val_mse=3.4473e-04
+epoch  100  train_mse=2.4785e-04  val_mse=2.4617e-04
+epoch  120  train_mse=2.3523e-04  val_mse=2.2704e-04
+epoch  140  train_mse=2.1826e-04  val_mse=2.1259e-04
+epoch  160  train_mse=2.1372e-04  val_mse=2.5436e-04
+epoch  180  train_mse=1.8440e-04  val_mse=2.0380e-04
+epoch  200  train_mse=1.8228e-04  val_mse=2.6483e-04
+epoch  220  train_mse=1.7988e-04  val_mse=1.7607e-04
+epoch  240  train_mse=1.6179e-04  val_mse=1.9723e-04
+epoch  260  train_mse=1.6620e-04  val_mse=2.5234e-04
+epoch  280  train_mse=1.5424e-04  val_mse=2.3432e-04
+epoch  300  train_mse=1.4456e-04  val_mse=1.5172e-04
+epoch  320  train_mse=1.4980e-04  val_mse=1.9489e-04
+epoch  340  train_mse=1.4318e-04  val_mse=1.7641e-04
+epoch  360  train_mse=1.3111e-04  val_mse=1.3256e-04
+epoch  380  train_mse=1.3346e-04  val_mse=1.3855e-04
+epoch  400  train_mse=1.3118e-04  val_mse=1.5272e-04
+epoch  420  train_mse=1.3667e-04  val_mse=1.4359e-04
+epoch  440  train_mse=1.2905e-04  val_mse=1.4275e-04
+epoch  460  train_mse=1.2146e-04  val_mse=1.3981e-04
+epoch  480  train_mse=1.2636e-04  val_mse=1.3898e-04
+epoch  500  train_mse=1.2443e-04  val_mse=1.2638e-04
+
+test R²   = 0.9999
+test RE = 5.9904e-03
+wrote ./sl_logs/N_mc100000/train_history_cond57.csv
+wrote ./sl_logs/N_mc100000/sg_cond57.pt  (test R²=0.9999, MRE=5.9904e-03)
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 36 concurrent workers.
+[Parallel(n_jobs=-1)]: Done  90 tasks      | elapsed:    3.3s
+[Parallel(n_jobs=-1)]: Done 216 tasks      | elapsed:    3.6s
+[Parallel(n_jobs=-1)]: Done 540 tasks      | elapsed:    4.3s
+[Parallel(n_jobs=-1)]: Done 936 tasks      | elapsed:    5.1s
+[Parallel(n_jobs=-1)]: Done 1404 tasks      | elapsed:    6.1s
+[Parallel(n_jobs=-1)]: Done 1944 tasks      | elapsed:    7.3s
+[Parallel(n_jobs=-1)]: Done 2556 tasks      | elapsed:    8.5s
+[Parallel(n_jobs=-1)]: Done 3240 tasks      | elapsed:   10.0s
+[Parallel(n_jobs=-1)]: Done 3996 tasks      | elapsed:   11.5s
+[Parallel(n_jobs=-1)]: Done 4824 tasks      | elapsed:   13.3s
+[Parallel(n_jobs=-1)]: Done 5724 tasks      | elapsed:   15.2s
+[Parallel(n_jobs=-1)]: Done 6696 tasks      | elapsed:   17.2s
+[Parallel(n_jobs=-1)]: Done 7740 tasks      | elapsed:   19.4s
+[Parallel(n_jobs=-1)]: Done 8856 tasks      | elapsed:   21.7s
+[Parallel(n_jobs=-1)]: Done 10044 tasks      | elapsed:   24.2s
+[Parallel(n_jobs=-1)]: Done 11304 tasks      | elapsed:   26.9s
+[Parallel(n_jobs=-1)]: Done 12636 tasks      | elapsed:   29.6s
+[Parallel(n_jobs=-1)]: Done 14040 tasks      | elapsed:   32.6s
+[Parallel(n_jobs=-1)]: Done 15516 tasks      | elapsed:   35.7s
+[Parallel(n_jobs=-1)]: Done 17064 tasks      | elapsed:   38.9s
+[Parallel(n_jobs=-1)]: Done 18684 tasks      | elapsed:   42.3s
+[Parallel(n_jobs=-1)]: Done 20376 tasks      | elapsed:   45.8s
+[Parallel(n_jobs=-1)]: Done 22140 tasks      | elapsed:   49.5s
+[Parallel(n_jobs=-1)]: Done 23976 tasks      | elapsed:   53.4s
+[Parallel(n_jobs=-1)]: Done 25884 tasks      | elapsed:   57.4s
+[Parallel(n_jobs=-1)]: Done 27864 tasks      | elapsed:  1.0min
+[Parallel(n_jobs=-1)]: Done 29916 tasks      | elapsed:  1.1min
+[Parallel(n_jobs=-1)]: Done 32040 tasks      | elapsed:  1.2min
+[Parallel(n_jobs=-1)]: Done 34236 tasks      | elapsed:  1.2min
+[Parallel(n_jobs=-1)]: Done 36504 tasks      | elapsed:  1.3min
+[Parallel(n_jobs=-1)]: Done 38844 tasks      | elapsed:  1.4min
+[Parallel(n_jobs=-1)]: Done 41256 tasks      | elapsed:  1.5min
+[Parallel(n_jobs=-1)]: Done 43740 tasks      | elapsed:  1.6min
+[Parallel(n_jobs=-1)]: Done 46296 tasks      | elapsed:  1.7min
+[Parallel(n_jobs=-1)]: Done 48924 tasks      | elapsed:  1.8min
+[Parallel(n_jobs=-1)]: Done 51624 tasks      | elapsed:  1.9min
+[Parallel(n_jobs=-1)]: Done 54396 tasks      | elapsed:  2.0min
+[Parallel(n_jobs=-1)]: Done 57240 tasks      | elapsed:  2.0min
+[Parallel(n_jobs=-1)]: Done 60156 tasks      | elapsed:  2.2min
+[Parallel(n_jobs=-1)]: Done 63144 tasks      | elapsed:  2.3min
+[Parallel(n_jobs=-1)]: Done 66204 tasks      | elapsed:  2.4min
+[Parallel(n_jobs=-1)]: Done 69336 tasks      | elapsed:  2.5min
+[Parallel(n_jobs=-1)]: Done 72540 tasks      | elapsed:  2.6min
+[Parallel(n_jobs=-1)]: Done 75816 tasks      | elapsed:  2.7min
+[Parallel(n_jobs=-1)]: Done 79164 tasks      | elapsed:  2.8min
+[Parallel(n_jobs=-1)]: Done 82584 tasks      | elapsed:  2.9min
+[Parallel(n_jobs=-1)]: Done 86076 tasks      | elapsed:  3.1min
+[Parallel(n_jobs=-1)]: Done 89640 tasks      | elapsed:  3.2min
+[Parallel(n_jobs=-1)]: Done 93276 tasks      | elapsed:  3.3min
+[Parallel(n_jobs=-1)]: Done 96984 tasks      | elapsed:  3.4min
+[Parallel(n_jobs=-1)]: Done 100000 out of 100000 | elapsed:  3.5min finished
+wrote ./sl_logs/N_mc100000/mc_cond58
+epoch   20  train_mse=8.4288e-04  val_mse=9.8573e-04
+epoch   40  train_mse=4.7039e-04  val_mse=4.1551e-04
+epoch   60  train_mse=3.2355e-04  val_mse=4.7674e-04
+epoch   80  train_mse=2.6560e-04  val_mse=2.9595e-04
+epoch  100  train_mse=2.4697e-04  val_mse=2.6581e-04
+epoch  120  train_mse=2.1790e-04  val_mse=2.1087e-04
+epoch  140  train_mse=2.0285e-04  val_mse=1.9470e-04
+epoch  160  train_mse=1.9522e-04  val_mse=2.4405e-04
+epoch  180  train_mse=1.7377e-04  val_mse=1.5615e-04
+epoch  200  train_mse=1.7935e-04  val_mse=2.7682e-04
+epoch  220  train_mse=1.5844e-04  val_mse=1.5128e-04
+epoch  240  train_mse=1.4943e-04  val_mse=1.5210e-04
+epoch  260  train_mse=1.5211e-04  val_mse=1.9538e-04
+epoch  280  train_mse=1.3759e-04  val_mse=1.4659e-04
+epoch  300  train_mse=1.3463e-04  val_mse=1.3067e-04
+epoch  320  train_mse=1.3169e-04  val_mse=2.1907e-04
+epoch  340  train_mse=1.3354e-04  val_mse=1.6751e-04
+epoch  360  train_mse=1.2855e-04  val_mse=1.6109e-04
+epoch  380  train_mse=1.3227e-04  val_mse=1.8133e-04
+epoch  400  train_mse=1.2384e-04  val_mse=1.2451e-04
+epoch  420  train_mse=1.2279e-04  val_mse=1.1572e-04
+epoch  440  train_mse=1.2097e-04  val_mse=1.3897e-04
+epoch  460  train_mse=1.1810e-04  val_mse=1.7965e-04
+epoch  480  train_mse=1.2413e-04  val_mse=1.3591e-04
+epoch  500  train_mse=1.1560e-04  val_mse=1.7974e-04
+
+test R²   = 0.9999
+test RE = 6.1563e-03
+wrote ./sl_logs/N_mc100000/train_history_cond58.csv
+wrote ./sl_logs/N_mc100000/sg_cond58.pt  (test R²=0.9999, MRE=6.1563e-03)
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 36 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 out of   1 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Done  91 tasks      | elapsed:    3.2s
+[Parallel(n_jobs=-1)]: Done 217 tasks      | elapsed:    3.5s
+[Parallel(n_jobs=-1)]: Done 616 tasks      | elapsed:    4.4s
+[Parallel(n_jobs=-1)]: Done 1408 tasks      | elapsed:    6.1s
+[Parallel(n_jobs=-1)]: Done 2344 tasks      | elapsed:    7.9s
+[Parallel(n_jobs=-1)]: Done 3424 tasks      | elapsed:   10.2s
+[Parallel(n_jobs=-1)]: Done 4648 tasks      | elapsed:   12.6s
+[Parallel(n_jobs=-1)]: Done 6016 tasks      | elapsed:   15.4s
+[Parallel(n_jobs=-1)]: Done 7528 tasks      | elapsed:   18.4s
+[Parallel(n_jobs=-1)]: Done 9184 tasks      | elapsed:   21.8s
+[Parallel(n_jobs=-1)]: Done 10984 tasks      | elapsed:   25.4s
+[Parallel(n_jobs=-1)]: Done 12928 tasks      | elapsed:   29.4s
+[Parallel(n_jobs=-1)]: Done 15016 tasks      | elapsed:   33.6s
+[Parallel(n_jobs=-1)]: Done 17248 tasks      | elapsed:   38.1s
+[Parallel(n_jobs=-1)]: Done 19624 tasks      | elapsed:   42.9s
+[Parallel(n_jobs=-1)]: Done 22144 tasks      | elapsed:   48.0s
+[Parallel(n_jobs=-1)]: Done 24808 tasks      | elapsed:   53.4s
+[Parallel(n_jobs=-1)]: Done 27616 tasks      | elapsed:   59.1s
+[Parallel(n_jobs=-1)]: Done 30568 tasks      | elapsed:  1.1min
+[Parallel(n_jobs=-1)]: Done 33664 tasks      | elapsed:  1.2min
+[Parallel(n_jobs=-1)]: Done 36904 tasks      | elapsed:  1.3min
+[Parallel(n_jobs=-1)]: Done 40288 tasks      | elapsed:  1.4min
+[Parallel(n_jobs=-1)]: Done 43816 tasks      | elapsed:  1.5min
+[Parallel(n_jobs=-1)]: Done 47488 tasks      | elapsed:  1.7min
+[Parallel(n_jobs=-1)]: Done 51304 tasks      | elapsed:  1.8min
+[Parallel(n_jobs=-1)]: Done 55264 tasks      | elapsed:  1.9min
+[Parallel(n_jobs=-1)]: Done 59368 tasks      | elapsed:  2.1min
+[Parallel(n_jobs=-1)]: Done 63616 tasks      | elapsed:  2.2min
+[Parallel(n_jobs=-1)]: Done 68008 tasks      | elapsed:  2.3min
+[Parallel(n_jobs=-1)]: Done 72544 tasks      | elapsed:  2.5min
+[Parallel(n_jobs=-1)]: Done 77224 tasks      | elapsed:  2.7min
+[Parallel(n_jobs=-1)]: Done 82048 tasks      | elapsed:  2.8min
+[Parallel(n_jobs=-1)]: Done 87016 tasks      | elapsed:  3.0min
+[Parallel(n_jobs=-1)]: Done 92128 tasks      | elapsed:  3.2min
+[Parallel(n_jobs=-1)]: Done 97384 tasks      | elapsed:  3.3min
+[Parallel(n_jobs=-1)]: Done 99929 out of 100000 | elapsed:  3.4min remaining:    0.1s
+[Parallel(n_jobs=-1)]: Done 100000 out of 100000 | elapsed:  3.4min finished
+wrote ./sl_logs/N_mc100000/mc_cond59
+epoch   20  train_mse=8.8626e-04  val_mse=9.6119e-04
+epoch   40  train_mse=4.2682e-04  val_mse=4.4522e-04
+epoch   60  train_mse=3.0050e-04  val_mse=3.9440e-04
+epoch   80  train_mse=2.4654e-04  val_mse=2.5643e-04
+epoch  100  train_mse=2.2802e-04  val_mse=2.1100e-04
+epoch  120  train_mse=2.0391e-04  val_mse=1.9197e-04
+epoch  140  train_mse=1.8394e-04  val_mse=1.9723e-04
+epoch  160  train_mse=1.7751e-04  val_mse=1.9555e-04
+epoch  180  train_mse=1.7271e-04  val_mse=1.7534e-04
+epoch  200  train_mse=1.6093e-04  val_mse=1.7540e-04
+epoch  220  train_mse=1.5614e-04  val_mse=1.8040e-04
+epoch  240  train_mse=1.4290e-04  val_mse=1.7040e-04
+epoch  260  train_mse=1.4474e-04  val_mse=1.8545e-04
+epoch  280  train_mse=1.3136e-04  val_mse=1.4596e-04
+epoch  300  train_mse=1.3105e-04  val_mse=1.4684e-04
+epoch  320  train_mse=1.3088e-04  val_mse=1.3804e-04
+epoch  340  train_mse=1.2068e-04  val_mse=1.3663e-04
+epoch  360  train_mse=1.1850e-04  val_mse=1.1160e-04
+epoch  380  train_mse=1.1705e-04  val_mse=1.2659e-04
+epoch  400  train_mse=1.1162e-04  val_mse=1.5056e-04
+epoch  420  train_mse=1.0859e-04  val_mse=1.8475e-04
+epoch  440  train_mse=1.0979e-04  val_mse=1.2093e-04
+epoch  460  train_mse=1.0503e-04  val_mse=1.1048e-04
+epoch  480  train_mse=9.9402e-05  val_mse=1.1028e-04
+epoch  500  train_mse=9.5792e-05  val_mse=1.0743e-04
+
+test R²   = 0.9999
+test RE = 5.2986e-03
+wrote ./sl_logs/N_mc100000/train_history_cond59.csv
+wrote ./sl_logs/N_mc100000/sg_cond59.pt  (test R²=0.9999, MRE=5.2986e-03)
